@@ -1,0 +1,20 @@
+options:
+  languages: [ "java", "scala:2.12.7" ]
+  resolverType: "coursier"
+  transitivity: deps
+  versionConflictPolicy: highest
+
+dependencies:
+
+  org.scalacheck:
+    scalacheck:
+      lang: scala
+      version: "1.13.5"
+
+  org.typelevel:
+    cats-core:
+      lang: scala
+      version: "1.4.0"
+    cats-effect:
+      lang: scala
+      version: "1.0.0"
